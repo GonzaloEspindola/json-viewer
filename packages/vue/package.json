@@ -1,6 +1,6 @@
 {
   "name": "@json-viewer/vue",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": true,
   "type": "module",
   "scripts": {
@@ -13,8 +13,8 @@
     "format": "prettier --write src/"
   },
   "dependencies": {
-    "vue": "^3.4.29",
-    "@json-viewer/core": "*"
+    "@json-viewer/core": "^1.0.1",
+    "vue": "^3.4.29"
   },
   "devDependencies": {
     "@tsconfig/node20": "^20.1.4",
