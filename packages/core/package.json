@@ -1,10 +1,16 @@
 {
   "name": "@json-viewer/core",
   "version": "1.0.0",
-  "main": "dist/JsonViewer.js",
+  "main": "dist/JsonViewer.es.js",
   "types": "dist/JsonViewer.d.ts",
   "license": "MIT",
   "private": true,
+  "exports": {
+    ".": {
+      "import": "./dist/JsonViewer.es.js",
+      "require": "./dist/JsonViewer.umd.js"
+    }
+  },
   "scripts": {
     "build": "vite build"
   },
