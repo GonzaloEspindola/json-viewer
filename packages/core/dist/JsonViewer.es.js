@@ -117,6 +117,6 @@ class g {
   }
 }
 export {
-  g as default
+  g as JsonViewer
 };
 //# sourceMappingURL=JsonViewer.es.js.map
