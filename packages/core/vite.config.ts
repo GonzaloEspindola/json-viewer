@@ -11,17 +11,16 @@ export default defineConfig({
   },
   build: {
     lib: {
-      entry: path.resolve(__dirname, 'src/index.ts'), // Apunta al archivo de entrada correcto
+      entry: path.resolve(__dirname, 'src/index.ts'),
       name: 'JsonViewer',
       fileName: (format) => `JsonViewer.${format}.js`,
     },
     outDir: 'dist',
     sourcemap: true,
     rollupOptions: {
-      // Excluir dependencias externas si es necesario
-      external: [], // Por ejemplo: ['vue'] si fuera necesario
+      external: [], 
       output: {
-        globals: {}, // Define variables globales si es necesario
+        globals: {}, 
       },
     },
   },
