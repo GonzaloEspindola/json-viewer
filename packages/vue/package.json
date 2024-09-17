@@ -3,6 +3,9 @@
   "version": "1.0.1",
   "private": true,
   "type": "module",
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "dev": "vite",
     "build": "run-p type-check \"build-only {@}\" --",

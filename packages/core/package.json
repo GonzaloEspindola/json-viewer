@@ -5,6 +5,9 @@
   "types": "dist/JsonViewer.d.ts",
   "license": "MIT",
   "private": true,
+  "publishConfig": {
+    "access": "public"
+  },
   "exports": {
     ".": {
       "import": "./dist/JsonViewer.es.js",
