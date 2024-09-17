@@ -11,7 +11,8 @@
   "exports": {
     ".": {
       "import": "./dist/JsonViewer.es.js",
-      "require": "./dist/JsonViewer.umd.js"
+      "require": "./dist/JsonViewer.umd.js",
+      "default": "./dist/JsonViewer.es.js"
     }
   },
   "scripts": {
