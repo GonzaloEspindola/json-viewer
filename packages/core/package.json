@@ -1,0 +1,20 @@
+{
+  "name": "@json-viewer/core",
+  "version": "1.0.0",
+  "main": "dist/JsonViewer.js",
+  "types": "dist/JsonViewer.d.ts",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "build": "vite build"
+  },
+  "type": "module",
+  "devDependencies": {
+    "typescript": "^5.6.2"
+  },
+  "dependencies": {
+    "@types/node": "^22.5.5",
+    "vite": "^5.4.6",
+    "vite-plugin-css-injected-by-js": "^3.5.1"
+  }
+}

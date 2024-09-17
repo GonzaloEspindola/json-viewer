@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JSON Viewer Test</title>
+</head>
+<body>
+    <div id="app"></div>
+    <script type="module">
+        import JsonViewer from '../dist/JsonViewer.es.js';
+
+        const viewer = new JsonViewer({
+          container: document.getElementById('app'),
+          method: 'GET',
+          baseUrl: 'http://localhost:3000',
+          url: 'docs',
+          showHeader: false,
+          data: [
+          {
+            name: 'Test',
+            age: 30,
+            address: {
+              city: 'Buenos Aires',
+              country: 'Argentina'
+            }
+          },
+          {
+            name: 'Test',
+            age: 30,
+            address: {
+              city: 'Buenos Aires',
+              country: 'Argentina'
+            }
+          }
+          ],
+          theme: 'dark',
+          expand: true
+        }
+        );
+        app.appendChild(viewer.render());
+    </script>
+</body>
+</html>
