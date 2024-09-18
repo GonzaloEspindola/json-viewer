@@ -1,7 +1,3 @@
-'use strict';
-
-Object.defineProperty(exports, '__esModule', { value: true });
-
 class JsonViewer {
     constructor(options) {
         const defaults = {
@@ -183,4 +179,4 @@ class JsonViewer {
     isNull(val) { return val === null; }
 }
 
-exports.default = JsonViewer;
+export { JsonViewer as default };
