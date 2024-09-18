@@ -8,7 +8,7 @@ const __dirname = dirname(__filename);
 export default {
     entry: './src/index.ts',
     output: {
-        filename: 'JsonViewer.js',
+        filename: 'index.js',
         path: path.resolve(__dirname, 'dist'),
         library: {
             name: 'JsonViewer',
