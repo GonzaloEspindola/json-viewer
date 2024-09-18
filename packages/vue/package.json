@@ -1,6 +1,6 @@
 {
   "name": "@json-viewer/vue",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "private": false,
   "type": "module",
   "publishConfig": {
@@ -16,7 +16,7 @@
     "format": "prettier --write src/"
   },
   "dependencies": {
-    "@json-viewer/core": "^1.1.3",
+    "@json-viewer/core": "^1.1.4",
     "vue": "^3.4.29"
   },
   "devDependencies": {
