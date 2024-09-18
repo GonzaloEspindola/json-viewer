@@ -11,7 +11,7 @@ interface JsonViewerOptions {
     expand?: boolean;
   }
   
-  export class JsonViewer {
+  export default class JsonViewer {
     options: JsonViewerOptions;
   
     constructor(options: JsonViewerOptions) {
