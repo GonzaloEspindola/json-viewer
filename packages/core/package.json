@@ -1,8 +1,8 @@
 {
   "name": "@json-viewer/core",
   "version": "1.1.2",
-  "main": "dist/JsonViewer.js",
-  "module": "dist/JsonViewer.js",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
   "types": "dist/index.d.ts",
   "license": "MIT",
   "private": false,
@@ -11,9 +11,9 @@
   },
   "exports": {
     ".": {
-      "import": "./dist/JsonViewer.js",
-      "require": "./dist/JsonViewer.umd.js",
-      "default": "./dist/JsonViewer.js"
+      "import": "./dist/index.js",
+      "require": "./dist/index.umd.js",
+      "default": "./dist/index.js"
     }
   },
   "scripts": {

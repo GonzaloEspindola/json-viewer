@@ -13,6 +13,7 @@ export default {
         library: {
             name: 'JsonViewer',
             type: 'umd',
+            export: 'default',
         },
     },
     resolve: {
