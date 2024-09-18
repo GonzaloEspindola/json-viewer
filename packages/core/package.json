@@ -2,6 +2,7 @@
   "name": "@json-viewer/core",
   "version": "1.1.0",
   "main": "dist/JsonViewer.js",
+  "module": "dist/JsonViewer.js",
   "types": "dist/index.d.ts",
   "license": "MIT",
   "private": false,
