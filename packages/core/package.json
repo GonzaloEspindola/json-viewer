@@ -1,8 +1,8 @@
 {
   "name": "@json-viewer/core",
   "version": "1.0.6",
-  "main": "dist/JsonViewer.es.js",
-  "types": "dist/JsonViewer.d.ts",
+  "main": "dist/JsonViewer.js",
+  "types": "dist/index.d.ts",
   "license": "MIT",
   "private": false,
   "publishConfig": {
@@ -10,22 +10,25 @@
   },
   "exports": {
     ".": {
-      "import": "./dist/JsonViewer.es.js",
+      "import": "./dist/JsonViewer.js",
       "require": "./dist/JsonViewer.umd.js",
-      "default": "./dist/JsonViewer.es.js"
+      "default": "./dist/JsonViewer.js"
     }
   },
   "scripts": {
-    "build": "vite build"
+    "build": "webpack"
   },
   "type": "module",
   "devDependencies": {
-    "typescript": "^5.6.2"
+    "css-loader": "^7.1.2",
+    "style-loader": "^4.0.0",
+    "ts-loader": "^9.5.1",
+    "typescript": "^5.6.2",
+    "webpack": "^5.94.0",
+    "webpack-cli": "^5.1.4"
   },
   "dependencies": {
-    "@types/node": "^22.5.5",
-    "vite": "^5.4.6",
-    "vite-plugin-css-injected-by-js": "^3.5.1"
+    "@types/node": "^22.5.5"
   },
   "gitHead": "ee340b1e1180f1494a1f5c80c67ef35882f6905b"
 }
