@@ -1,6 +1,6 @@
 {
   "name": "@json-viewer/core",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "main": "dist/JsonViewer.js",
   "module": "dist/JsonViewer.js",
   "types": "dist/index.d.ts",
