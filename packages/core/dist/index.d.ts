@@ -9,7 +9,7 @@ interface JsonViewerOptions {
     theme?: 'dark' | 'light';
     expand?: boolean;
 }
-export declare class JsonViewer {
+export default class JsonViewer {
     options: JsonViewerOptions;
     constructor(options: JsonViewerOptions);
     parseData(): any;
